@@ -1,3 +1,7 @@
+var express = require("express");
+var router = express.Router();
+var mongojs = require("mongojs");
+
 var databaseUrl =
   "mongodb+srv://admin:Passw0rd@app.uhvgo.gcp.mongodb.net/to-do-list?retryWrites=true&w=majority"; // "username:password@example.com/mydb"
 var collections = ["tasks"];
