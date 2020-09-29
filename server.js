@@ -7,7 +7,7 @@ var tasks = require("./routes/tasks");
 
 const cors = require("cors");
 
-var port = 5000;
+var port = process.env.port || 5000;
 
 var app = express();
 
